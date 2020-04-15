@@ -9,7 +9,6 @@ import "./App.css";
 // import the PostsPage and SearchBar and add them to the App
 import PostsPage from "./components/PostsContainer/PostsPage.js";
 import SearchBar from "./components/SearchBar/SearchBarContainer.js";
-import CommentSection from "./components/CommentSection/CommentSectionContainer.js";
 
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
       {/* Add imported components here to render them */}
       <SearchBar />
       <PostsPage />
-      <CommentSection />
     </div>
   );
 };
